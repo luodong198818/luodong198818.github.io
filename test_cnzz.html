@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			span {
+				display: block;
+				cursor: pointer;
+				margin-top: 20px;
+				width: 140px;
+				border: 1px solid #000000;
+			}
+		</style>
+		<script>
+			var _czc = _czc || [];
+			
+		</script>
+	</head>
+ 
+	<body>
+	
+		<script type="text/javascript">
+			var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+			document.write(unescape("%3Cspan id='cnzz_stat_icon_1275486374'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1275486374%26online%3D1' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	
+		备注：cnzz站长统计
+		<span class="span7">tackevent</span>
+		<div style="width: 100px;height:20px;margin-top: 200px;margin-left: 200px;"></div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script>
+		$(".span7").bind("click", function() {
+			$("div").text("点了tackevent");
+			_czc.push(['_trackEvent', "'0音乐测试*", "%播放-", "音乐", 100]);
+		});
+ 
+		setTimeout(function() {
+			$("ins").each(function() {
+ 
+				$(this).css("display", "none");
+			})
+		}, 1000);
+	</script>
+	<!--http://tongji.baidu.com/web/help/article?id=236&type=0-->
+ 
+</html>
